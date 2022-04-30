@@ -1,4 +1,3 @@
-
 const daynames = [
 	"Sunday",
 	"Monday",
