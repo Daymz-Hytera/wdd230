@@ -1,4 +1,3 @@
-
 const daynames = [
 	"Sunday",
 	"Monday",
@@ -22,15 +21,16 @@ const months = [
 	"November",
 	"December"
 ];
-const d = new Date();
-const dayName = daynames[d.getDay()];
-const monthName = months[d.getMonth()];
-const year = d.getFullYear();
-//const fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
-const fulldate = `${year}`;
+const todaysdate = new Date();
+const dayName = daynames[todaysdate.getDay()];
+const monthName = months[todaysdate.getMonth()];
+const year = todaysdate.getFullYear();
+//const currentdate = `${dayName}  ${todaysdate.getDate()} ${monthName} ${year}`;
+const currentdate = dayName + ", " + todaysdate.getDate() + " " + monthName +", " + year;
+document.getElementById('currentdate').textContent = currentdate;
+const yeardate = year;
 // using getElementById
-document.getElementById("currentdate").textContent = fulldate;
-
+document.getElementById("yeardate").textContent = yeardate;
 
 //const formatdate =`${d.getMonth()} / ${d.getDate()} / ${year} ${d.getTime()}`;
 
