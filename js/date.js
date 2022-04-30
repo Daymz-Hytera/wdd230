@@ -26,7 +26,7 @@ const dayName = daynames[todaysdate.getDay()];
 const monthName = months[todaysdate.getMonth()];
 const year = todaysdate.getFullYear();
 //const currentdate = `${dayName}  ${todaysdate.getDate()} ${monthName} ${year}`;
-const currentdate = dayName + ", " + d.getDate() + " " + monthName +", " + year;
+const currentdate = dayName + ", " + todaysdate.getDate() + " " + monthName +", " + year;
 document.getElementById('currentdate').textContent = currentdate;
 const yeardate = year;
 // using getElementById
