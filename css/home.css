@@ -3,9 +3,9 @@ body {
   background-color: white;
   margin: auto;
   padding: 10px;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 1.5;
-  width: 500px;
+  max-width: 500px;
   text-align: center;
 }
 
@@ -19,9 +19,9 @@ header {
     border: 2px solid #03558C;
     border-radius: 12px;
     padding: 5px;
-    width: 500px;
+    width: auto;
     position: relative;
-    box-shadow:0px 0px 30px 10px #03558C;
+    box-shadow:0px 0px 20px 5px #03558C;
 }
 
 .portrait img {
@@ -33,6 +33,7 @@ header {
   
 }
 .portrait h1{
+  font-size: 1.5em;
   color: white;
   margin: 0;
   position: absolute;
@@ -41,6 +42,12 @@ header {
   margin-right: -50%;
   transform: translate(-0%, -50%)
   
+
+}
+main h2{
+  font-size: 1em;
+  margin: 0;
+
 
 }
 main ul{
@@ -67,9 +74,9 @@ footer {
     border: 2px solid #03558C;
     border-radius: 12px;
     padding: 5px;
-    width: 500px;
+    width: auto;
     position: relative;
-    box-shadow:0px 0px 30px 10px #03558C;
+    box-shadow:0px 0px 20px 5px #03558C;
     margin-top:40px;
 }
 
