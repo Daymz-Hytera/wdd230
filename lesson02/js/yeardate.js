@@ -31,3 +31,4 @@ document.getElementById('currentdate').textContent = currentdate;
 
 const oLastModif = new Date(document.lastModified);
 document.getElementById("lastmod").textContent = oLastModif;
+//
