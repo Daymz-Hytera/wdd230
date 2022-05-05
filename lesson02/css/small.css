@@ -26,6 +26,50 @@ header, footer {
 	position: relative;
 }
 
+header a:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+  }
+header  a:visited {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+  }
+header  a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+header a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+
+a:link {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+  }
+a:visited {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+  }
+a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+
+
+
 main {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -63,40 +107,4 @@ main section:nth-child(2) {
 
 .colimage {
 	box-shadow: 0 0 30px #333;
-}
-
-
-/* Tablet Views ******************************/
-@media only screen and (min-width: 37.5em) {
-	main {
-		grid-template-columns: 1fr 1fr;
-	}
-
-	main section:nth-child(2) {
-		display: block;
-	}
-
-	main section:nth-child(3) {
-		grid-column: span 2;
-	}
-
-	main section picture {
-		display: block;
-	}
-	main section picture img {
-		width: 100%;
-		height: auto;
-		border: 1px solid #bbb;
-	}
-}
-
-/* Desktop Views ****************************/
-@media only screen and (min-width: 60em) {
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-
-	main section:nth-child(3) {
-		grid-column: span 1;
-	}
 }
