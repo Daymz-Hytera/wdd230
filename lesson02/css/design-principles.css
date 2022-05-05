@@ -17,8 +17,8 @@ header {
     margin: 0px;
     align-items: center;
 	text-align: center;
-    background-color:#03558C;
-    border: 2px solid #03558C;
+    background-color:#037e8c;
+    border: 2px solid #037e8c;
     border-radius: 12px;
     padding: 5px;
     width: auto;
@@ -63,8 +63,8 @@ footer {
     grid-template-rows: auto;
     margin: 0px;
     text-align: center;
-    background-color:#03558C;
-    border: 2px solid #03558C;
+    background-color:#037e8c;
+    border: 2px solid #037e8c;
     border-radius: 12px;
     padding: 5px;
     width: auto;
