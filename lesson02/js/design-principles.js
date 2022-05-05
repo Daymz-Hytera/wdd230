@@ -26,13 +26,9 @@ const dayName = daynames[todaysdate.getDay()];
 const monthName = months[todaysdate.getMonth()];
 const year = todaysdate.getFullYear();
 //const currentdate = `${dayName}  ${todaysdate.getDate()} ${monthName} ${year}`;
-const currentdate = dayName + ", " + todaysdate.getDate() + " " + monthName +", " + year;
-document.getElementById('currentdate').textContent = currentdate;
-const yeardate = year;
-// using getElementById
-document.getElementById("yeardate").textContent = yeardate;
+document.getElementById('currentdate').textContent = year;
 
-//const formatdate =`${d.getMonth()} / ${d.getDate()} / ${year} ${d.getTime()}`;
-
-const oLastModif = new Date(document.lastModified);
-document.getElementById("lastmod").textContent = oLastModif;
+//last modified date and time
+let d = new Date(document.lastModified)
+let date = `${d.getMonth()+1}/${d.getDate()}/${d.getFullYear()} ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`;
+document.getElementById("lastmod").textContent = date
