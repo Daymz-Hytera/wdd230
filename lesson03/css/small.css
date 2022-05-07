@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans&display=swap');
+
+body {
+	font-size: 16px;
+	/*font-family: "Sansita", Ubuntu, sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+	max-width: 1000px;
+  	margin: 0 auto;
+  	padding: 1em;
+}
+
+h1, h2, h3 {
+	font-family: 'Lato', sans-serif, serif;
+}
+/* phone or baseline views **************************/
+
+nav {
+    background-color: #03478c;
+    text-align: center;
+	border-radius: 12px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: .75rem;
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav a:hover {
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+}
+
+
+header, footer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin: 0px;
+    align-items: center;
+	text-align: center;
+	color: white ;
+    background-color: #03478c;
+    border: 2px solid #03478c;
+    border-radius: 12px;
+    padding: 5px;
+    width: auto;
+	position: relative;
+}
+
+main {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: block;
+	font-size: 0.8rem;
+	text-align: left;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+  }
+
+img.portrait {
+	max-width: 200px;
+
+}
+
+img.logo {
+	max-width: 300px;
+}
+
+.color-paragraph {
+	background-color: #03478c;
+	color: white;
+
+}
+
+.colors {
+	width: 100%;
+	min-width: 350px;
+	margin: auto;
+	text-align: center;
+  }
+  .colors th {
+	background-color: #999;
+  }
+  .colors td{
+	width: 25%;
+	height: 3em;
+  }
+.primary {
+	background-color: #03478C;
+  }
+  .secondary {
+	background-color: #5DFDCB;
+  }
+  .accent1 {
+	background-color: #7CC6FE;
+  }
+  .accent2{
+	background-color: #5C0029;
+  }
+  
