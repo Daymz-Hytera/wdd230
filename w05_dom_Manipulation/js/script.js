@@ -4,6 +4,9 @@ const button = document.querySelector("button");
 
 button.addEventListener("click", () => {
 	const myItem = input.value;
+	if (myItem === "") {
+		e.preventDefault();
+	}
 	input.value = "";
 	const listItem = document.createElement("li");
 	const listText = document.createElement("span");
