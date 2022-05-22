@@ -22,27 +22,39 @@
         grid-column: span 3;
         grid-row: 3;
         display: flex;
-        height: 325px;
-        max-width: 700px;
-        padding: 0px;
+        height: 400px;
+        max-width: 1000px;
+        padding: 10px;
         justify-content: space-around;
+        background-color: #079c6da7
     }
+
+    .spotlight1,
+    .spotlight2,
+    .spotlight3 {
+        margin: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 1px solid #079c6da7;
+        padding: 10px 10px;
+        width: 310px;
+    }
+
 
     .spotlight img {
-        max-width: 100px;
+        max-width: 80px;
+    }
+    .spotlight3 {
+        display: none;
     }
 
-    .spotlight p {
-        margin: auto;
-        border: 1px solid gray;
-        padding: 60px 110px;
-    }
 
     .join {display: grid;
         margin: 10px 0px;
         grid-column: span 3;
         grid-row: 4;
         background-color: #079c6da7;
+        justify-content: center;
     }
 
     .join h2 {
@@ -52,11 +64,11 @@
         font-size: 30px;
         padding: 10px;
         border-radius: 10px;
-        font-size: 16px;
-        max-width: 100px;
+        font-size: 20px;
+        max-width: 600px;
+        text-align: center;
     }
     .event {margin: 10px 10px 10px 0px;
-        
         grid-column: span 2;
         grid-row: 5;
         }
@@ -64,6 +76,21 @@
         grid-column: 3;
         grid-row: 5;
     }   
+    .weather h3{
+    grid-column: 3/3;
+    grid-row: 2/3;
+    text-align: center;
+    margin:0;
+    padding:10px;
+    margin-right: 0px;
+}
+    .weather img {
+        max-width: 50px;
+        position: absolute;
+        top: 60px;
+        left: 50px;
+        
+    }
     
     footer div:nth-child(1) {
         display: flex;
