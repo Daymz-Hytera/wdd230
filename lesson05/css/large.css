@@ -114,12 +114,12 @@ main div {
     display: block;
     padding: 10px;
     width: auto;
-    max-height: 255px;
+    max-height: 246px;
     background-color: #079c6da7;
 
 }
 .spotlight img {
-    height: 40px;
+    height: 60px;
 }
 
 .event {
