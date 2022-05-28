@@ -150,8 +150,8 @@ main h1, h2{
         color: #5C0029;
         }
 .hero h2 {
-        background-color: #0868c7;
-        color: #5C0029;
+        background-color: #5C0029;
+        color: white;
         position: absolute;
         bottom: -5px;
         right: 20px;
