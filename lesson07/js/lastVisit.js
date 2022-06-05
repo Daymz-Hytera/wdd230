@@ -1,3 +1,5 @@
+
+
 //count the number of page visits
 var numVisits = Number(window.localStorage.getItem('visits'));
 
@@ -7,6 +9,7 @@ numVisits++
 
 //store the count in local storage as 'numVisits
 console.log(numVisits)
+const visitsDisplay = document.querySelector(".visits");
 window.localStorage.setItem('visits', numVisits);
 
 
