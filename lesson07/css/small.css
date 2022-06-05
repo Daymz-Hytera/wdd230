@@ -289,3 +289,23 @@ footer div p a {
 .mapIcon img{
     width: 30px;
 }
+
+/*Discovery page*/
+.art, .culture, .celebrate-wines, .spa-experience, .cycling {
+    display: inline-block;
+    margin: 5px;
+    height: auto;
+    background-color: #079c6da7;
+    font-size: 12px;
+} 
+
+.art img, .culture img, .celebrate-wines img, .spa-experience img, .cycling img {
+    width: 100%
+}
+
+.preFooter {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #079c6da7;
+}

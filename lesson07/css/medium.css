@@ -101,4 +101,13 @@
     footer div:nth-child(1) img, footer div:nth-child(1) p {
         margin: auto
     }
+
+
+    /*Discovery page*/
+    .art:hover, .culture:hover, .celebrate-wines:hover, .spa-experience:hover, .cycling:hover {
+        box-shadow: 0px 0px 5px 5px #5C0029;
+    } 
+        .discover-main {
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
 }
