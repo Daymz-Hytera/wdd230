@@ -1,32 +1,38 @@
-
+// creates visitDisplay so that it can be accessed from class .numVisits on html page
+const visitsDisplay = document.querySelector(".numVisits");
 
 //count the number of page visits
 var numVisits = Number(window.localStorage.getItem('visits'));
 
 
-//add one each visit
+//adds one value to the number of visits
 numVisits++
 
+//if number of visits is = 0, displays This is your first visit and if not then displays number of visits.
+if (numVisits !== 0) {
+	visitsDisplay.textContent = numVisits;
+} else {
+	visitsDisplay.textContent = `This is your first visit!`;
+}
 //store the count in local storage as 'numVisits
 console.log(numVisits)
-const visitsDisplay = document.querySelector(".visits");
+
 window.localStorage.setItem('visits', numVisits);
 
 
-
 //for each visit use numVisits as the key for each timestamp 
-   //get element to put date into.
+//get element to put date into.
 const todayDisplay = document.querySelector('.today');
-    //set the content of the element to the date.
+//set the content of the element to the date.
 todayDisplay.textContent = Date.now();
-    //check with console log
+//check with console log
 console.log(todayDisplay)
 
-   //change date into number 
+//change date into number 
 var numTodayDisplay = parseFloat(todayDisplay.textContent)
 console.log(numTodayDisplay)
 
-    //save date to local storage with visit number as the key.
+//save date to local storage with visit number as the key.
 window.localStorage.setItem(numVisits, numTodayDisplay);
 
 //get today's timestamp as number
@@ -52,5 +58,4 @@ console.log(difDays, "days")
 
 //display difDays onto webpage
 document.querySelector('.diffDays').textContent = difDays
-
 
