@@ -47,3 +47,6 @@ tfoot tr:nth-child(1) {
     background-color: rgba(20, 123, 174, 0.623);
     color: white;
 }
+.bfriday {
+    font-style: italic;
+}
