@@ -194,6 +194,7 @@ main div {
 }
 main h1, h2{
     color: #5C0029;
+    text-align: center;
 }
 
 .hero {
