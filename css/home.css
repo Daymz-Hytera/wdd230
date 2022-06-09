@@ -43,6 +43,7 @@ main ul{
 main li{
   list-style-position: inside;
   text-align: center;
+  list-style-type: none;
   
 }
 
