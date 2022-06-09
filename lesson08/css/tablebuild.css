@@ -1,9 +1,13 @@
-body {
+table {
+    margin: 10px auto;
+    
+    box-shadow: 10px 10px 10px rgba(20, 123, 174, 0.623);
     font-family: Ubuntu, sans-serif;
-}
+    text-align: center;
+    }
 
 table, tr, th, td {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1.4px solid rgb(177, 177, 177);
     border-collapse: collapse;
 }
 
