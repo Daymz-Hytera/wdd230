@@ -17,7 +17,13 @@ main h2{
 
 header, footer{
     box-shadow:0px 0px 30px 10px #03558C;
-   
-
     }
+
+/*for join page*/
+.joinPage {
+    display: block;
+    margin: 0 auto;
+}
+
+
 }

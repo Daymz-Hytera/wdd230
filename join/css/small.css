@@ -6,7 +6,7 @@
 /*------ FORM ------*/
 
 form fieldset {
-    margin: 0 auto;
+    margin: 5px auto;
     border: 1px solid #5C0029;
     background-color: #079c6da7;
     border-radius: 10px;
@@ -75,13 +75,6 @@ form label.top input:required:valid {
     text-align: centre;
     background-color: #079c6da7;
     margin: 0 auto;
-}
-
-/*----------- FOOTER --------------*/
-footer {
-    background-color: #ddd;
-    padding: .5rem 2%;
-    text-align: center;
 }
 
 
