@@ -22,10 +22,20 @@
         .discover-main {
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     }
-}
 
-/*for join page*/
-.joinPage {
-    display: block;
-    margin: 0 auto;
+
+    /*for join page*/
+    .joinPage {
+        display: block;
+        margin: 0 auto;
+    }
+
+    form fieldset {
+        max-width: 650px;
+
+    }
+
+    form label.top input, form label.top select form, label.textArea #describe{
+        max-width: 500px;
+    }
 }

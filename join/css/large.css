@@ -1,8 +1,11 @@
 @media only screen and (min-width: 60rem) {
 
     form fieldset {
-        max-width: 700px;
+        max-width: 800px;
         
+    }
+    form label.top input, form label.top select form, label.textArea #describe{
+        max-width: 750px;
     }
 
     form label.sbs {
