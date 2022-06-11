@@ -45,7 +45,13 @@ form label.top input, form label.top select form, label.textArea #describe{
 
 form label.sbs {
     display: block;
-    padding: .75rem;
+    padding: 0 .75rem;
+    color: #555;
+    
+}
+form p.sbs {
+    display: block;
+    padding:  .75rem;
     color: #555;
     
 }
