@@ -116,6 +116,8 @@
     #directory {
         display: block;
     }
-    
+    div.cards section:hover {
+        box-shadow: 0px 0px 5px 5px #5C0029;
+    } 
 }
 
