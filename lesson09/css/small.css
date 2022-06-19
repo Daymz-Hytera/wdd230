@@ -308,8 +308,8 @@ main {
     justify-content: center;
 }
 #grid, #list {
-    font-size: 15px;
-    padding: 5px;
+    font-size: 20px;
+    padding: 15px;
     color: white;
     background: #079c6da7;
     border-radius: 10px;
