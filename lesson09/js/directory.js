@@ -20,7 +20,7 @@ function displayBusinesses(company) {
     let h4 = document.createElement('h4');
     let h5 = document.createElement('h5');
     let h6 = document.createElement('h6');
-    let h7 = document.createElement('p');
+    let p = document.createElement('p');
     let logo = document.createElement('img');
 
     // Change the textContent property of the each h property
