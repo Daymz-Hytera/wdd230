@@ -311,7 +311,7 @@ main {
     font-size: 1.5rem;
     padding: 10px;
     color: black;
-    background: lightgray;
+    background: #079c6da7;
     border-radius: 10px;
     border: 1px outset black 
 }
@@ -357,7 +357,7 @@ div.cards section {
     margin: 10px 1rem;
     text-align: left;
     padding: 20px;
-    background-color: lightgray;
+    background-color: #079c6da7;
 }
 .list section h2 {
     font-size: 20px;
