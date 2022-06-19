@@ -1,0 +1,95 @@
+{
+    "businesses": [
+      {
+        "business": "Exceed Accountants Limited",
+        "contact": "Gerhard Visagie",
+        "phonenumber": "+44 (0) 1784 439 955",
+        "email": "enquiries@exceedca.com",
+        "website": "https://www.exceedca.com/",
+        "imageurl": "https://media.ldscdn.org/images",
+        "membership": "Bronze"
+      },
+
+      {
+        "business": "Ageless and Boundless",
+        "contact": "Annette Christie",
+        "phonenumber": "+27(0)791746839",
+        "email": "annette@agelessandboundless.com",
+        "website": "http://www.agelessandboundless.com",
+        "imageurl": "https://media.ldscdn.org/images",
+        "membership": "Bronze"
+      },
+
+      {
+        "business": "Equity Impact Partners",
+        "contact": "Keith Holdt",
+        "phonenumber": "+44 (0) 771 548 5899",
+        "email": "keith@equityimpactpartners.com",
+        "website": "http://www.equityimpactpartners.com",
+        "imageurl": "https://media.ldscdn.org/images",
+        "membership": "Bronze"
+      },
+
+      {
+        "business": "Cellar Door Wines",
+        "contact": "Penny Edwards",
+        "phonenumber": "01727854488",
+        "email": "sales@cellardoorwines.co.uk",
+        "website": "http://cellardoorwines.co.uk",
+        "imageurl": "https://media.ldscdn.org/images",
+        "membership": "Silver"
+      },
+
+      {
+        "business": "Lekela Advisors",
+        "contact": "Jas Khakh",
+        "phonenumber": "+44 203 994 0600",
+        "email": "jas.khakh@lekela.com",
+        "website": "https://lekela.com/",
+        "imageurl": "https://media.ldscdn.org/images",
+        "membership": "Silver"
+      },
+
+      {
+        "business": "Proviris Solutions",
+        "contact": "Bernie Williams",
+        "phonenumber": "+44 (0)20 3773 8642",
+        "email": "bernie@provirissolutions.com",
+        "website": "https://provirissolutions.com",
+        "imageurl": "https://media.ldscdn.org/images",
+        "membership": "Silver"
+      },
+
+      {
+        "business": "Regency Freight Services Ltd",
+        "contact": "Marc Owens",
+        "phonenumber": "01753 313700",
+        "email": "marc.owens@regencyfreight.co.uk",
+        "website": "http://www.regencyfreight.co.uk",
+        "imageurl": "https://media.ldscdn.org/images",
+        "membership": "Gold"
+      },
+
+      {
+        "business": "Advanta Wealth",
+        "contact": "Matthew Young",
+        "phonenumber": "07484365511",
+        "email": "myoung@theadvantagroup.co.uk",
+        "website": "http://www.advantawealth.co.uk",
+        "imageurl": "https://media.ldscdn.org/images",
+        "membership": "Gold"
+      },
+
+      {
+        "business": "Alchemed Pty Ltd",
+        "contact": "Grant Morgan Smith",
+        "phonenumber": "07852485614",
+        "email": "grant@alchemed.com",
+        "website": "https://alchemed.com/",
+        "imageurl": "https://media.ldscdn.org/images",
+        "membership": "Gold"
+      }
+      
+
+    ]
+}
