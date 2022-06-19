@@ -308,9 +308,9 @@ main {
     justify-content: center;
 }
 #grid, #list {
-    font-size: 1.5rem;
+    font-size: 15px;
     padding: 10px;
-    color: black;
+    color: white;
     background: #079c6da7;
     border-radius: 10px;
     border: 1px outset black 
