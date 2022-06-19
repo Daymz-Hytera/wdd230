@@ -323,12 +323,14 @@ div.cards {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 5px;
     background-color: white;
+    
 }
 
 div.cards section {
     background-color: #079c6da7;
     padding: 5px;
     max-width: 300px;
+    margin: 5px;
 }
 
 .cards h2,h2,h3,h4,h5,h6,p {
