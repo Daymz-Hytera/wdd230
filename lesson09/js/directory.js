@@ -24,12 +24,12 @@ function displayBusinesses(company) {
     let logo = document.createElement('img');
 
     // Change the textContent property of the each h property
-    h2.textContent = business;
-    h3.textContent = contact;
-    h4.textContent = phonenumber;
-    h5.textContent = email;
-    h6.textContent = website;
-    h7.textContent = membership;
+    h2.textContent = company.business;
+    h3.textContent = company.contact;
+    h4.textContent = company.phonenumber;
+    h5.textContent = company.email;
+    h6.textContent = company.website;
+    h7.textContent = company.membership;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
     logo.setAttribute('src', company.imageurl);
