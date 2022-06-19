@@ -20,7 +20,7 @@ function displayBusinesses(company) {
     let h4 = document.createElement('h4');
     let h5 = document.createElement('h5');
     let h6 = document.createElement('h6');
-    let h7 = document.createElement('h7');
+    let h7 = document.createElement('p');
     let logo = document.createElement('img');
 
     // Change the textContent property of the each h property
@@ -29,7 +29,7 @@ function displayBusinesses(company) {
     h4.textContent = company.phonenumber;
     h5.textContent = company.email;
     h6.textContent = company.website;
-    h7.textContent = company.membership;
+    p.textContent = company.membership;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
     logo.setAttribute('src', company.imageurl);
@@ -43,7 +43,7 @@ function displayBusinesses(company) {
     card.appendChild(h4);
     card.appendChild(h5);
     card.appendChild(h6);
-    card.appendChild(h7);
+    card.appendChild(p);
 
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);
