@@ -8,11 +8,11 @@ fetch('data.json')
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const business = jsonObject["business"];
-    business.forEach(displayBusiness);
+    const businesses = jsonObject["businesses"];
+    businesses.forEach(displayBusinesses);
   });
 
-function displayBusiness(company) {
+function displayBusinesses(company) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
