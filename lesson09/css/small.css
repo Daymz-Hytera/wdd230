@@ -354,9 +354,9 @@ div.cards section {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10px 1rem;
+    margin: 10px 5px;
     text-align: left;
-    padding: 20px;
+    padding: 10px;
     background-color: #079c6da7;
 }
 .list section h2 {
