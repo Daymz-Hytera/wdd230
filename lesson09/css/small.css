@@ -327,6 +327,7 @@ div.cards {
 div.cards section {
     background-color: #079c6da7;
     padding: 5px;
+    max-width: 300px;
 }
 
 .cards h2,h2,h3,h4,h5,h6,p {
