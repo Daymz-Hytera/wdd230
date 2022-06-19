@@ -310,7 +310,7 @@ main {
 #grid, #list {
     font-size: 20px;
     padding: 15px;
-    color: white;
+    color: #5C0029;
     background: #079c6da7;
     border-radius: 10px;
     border: 1px outset #5C0029;
@@ -326,18 +326,19 @@ div.cards {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 5px;
     background-color: white;
+    color: #5C0029;
     
 }
 
 div.cards section {
     background-color: #079c6da7;
     padding: 5px;
-    max-width: 300px;
     margin: 5px;
 }
 
-.cards h2,h2,h3,h4,h5,h6,p {
+.cards div h2,h2,h3,h4,h5,h6,p {
     text-align: center;
+    font-size: 15px;
 }
 
 .cards img {
@@ -354,22 +355,22 @@ div.cards section {
     background-color: white;
 }
 .list section {
-    
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    margin: 10px 5px;
+    margin: 5px 5px;
     text-align: left;
-    padding: 10px;
+    padding: 2px;
     background-color: #079c6da7;
+    color: #5C0029;
 }
 .list section h2 {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .list section h3,h4,h5,h6,p {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 #directory div.list section h3,h4,h5,h6,p {
@@ -377,6 +378,8 @@ div.cards section {
 }
 
 .list section img {
-    max-width: 50px;
+    max-width: 150px;
+    border: 1px solid #5C0029;
+    margin-top: 10px;
 }
 

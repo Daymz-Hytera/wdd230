@@ -160,10 +160,12 @@ main {
 
 /*directory*/
 
-div.cards section {
-    margin: 5px;
+.list h2 {
+    font-size: 15px;
 }
-
+.list h3,h4,h5,h6,p {
+    font-size: 10px;
+}
 
 
 }
