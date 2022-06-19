@@ -111,4 +111,11 @@
         margin: 0 auto;
         max-width: 90%;
     }
+
+    /*directory*/
+    #directory {
+        display: block;
+    }
+    
 }
+

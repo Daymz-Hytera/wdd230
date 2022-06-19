@@ -290,6 +290,7 @@ footer div p a {
     width: 30px;
 }
 
+/*wireframe*/
 main {
     display: block;
 
@@ -299,5 +300,74 @@ main {
     display: block;
     margin: 0 auto;
     max-width: 90%;
+}
+
+/*directory*/
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+#grid, #list {
+    font-size: 1.5rem;
+    padding: 10px;
+    color: black;
+    background: lightgray;
+    border-radius: 10px;
+    border: 1px outset black 
+}
+
+div.cards {
+    height:100%;
+    display: grid;   
+    grid-template-columns: repeat(auto-fit, minmax(365px, 1fr));
+    padding: 20px;
+    background-color: white;
+}
+
+div.cards section {
+    
+    background-color: lightgray;
+    margin: 10px 0px;
+    padding-top: 10px;
+}
+
+.cards h2, .cards p {
+    text-align: center;
+}
+
+.cards img {
+    display: block;
+    margin:0 auto;
+    padding-bottom: 20px;
+}
+
+.list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.list section {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 1rem;
+    text-align: left;
+    padding: 20px;
+    background-color: lightgray;
+}
+.list section h2 {
+    font-size: 1rem;
+}
+
+#directory div.list section p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.list section img {
+    display: none;
 }
 
