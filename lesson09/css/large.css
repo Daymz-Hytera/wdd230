@@ -151,7 +151,7 @@ main {
     display: block;
 }
 
-main .wireframe img {
+.wireframe img {
     display: block;
     margin: 0 auto;
     max-width: 90%;

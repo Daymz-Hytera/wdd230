@@ -292,14 +292,10 @@ footer div p a {
 
 main {
     display: block;
+
 }
 
-
-.wireframe div {
-    max-width: 90%;
-}
-
-main .wireframe img {
+.wireframe img {
     display: block;
     margin: 0 auto;
     max-width: 90%;
