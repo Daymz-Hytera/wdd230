@@ -365,11 +365,11 @@ div.cards section {
     background-color: #079c6da7;
 }
 .list section h2 {
-    font-size: 20px;
+    font-size: 15px;
 }
 
-.list section h3,h4,h5,h6 {
-    font-size: 20px;
+.list section h3,h4,h5,h6,p {
+    font-size: 10px;
 }
 
 #directory div.list section h3,h4,h5,h6,p {
@@ -377,6 +377,6 @@ div.cards section {
 }
 
 .list section img {
-    display: none;
+    max-width: 50px;
 }
 
