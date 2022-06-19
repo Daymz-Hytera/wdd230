@@ -338,7 +338,8 @@ div.cards section {
 .cards img {
     display: block;
     margin:0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    max-width: 60%;
 }
 
 .list {
@@ -359,12 +360,11 @@ div.cards section {
     background-color: lightgray;
 }
 .list section h2 {
-    font-size: 1rem;
+    font-size: 20px;
 }
 
-#directory div.list section p {
-    margin-left: 10px;
-    margin-right: 10px;
+#directory div.list section h3,h4,h5,h6 {
+    font-size: 15px;
 }
 
 .list section img {
