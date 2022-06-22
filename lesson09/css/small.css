@@ -376,6 +376,9 @@ div.cards section {
 #directory div.list section h3,h4,h5,h6,p {
     font-size: 15px;
 }
+#directory div.list section h3,h4,h5,h6 {
+    margin-bottom: -5px;
+}
 
 .list section img {
     max-width: 150px;
@@ -383,3 +386,6 @@ div.cards section {
     margin-top: 10px;
 }
 
+.list section h2,h3 {
+    display: none;
+}

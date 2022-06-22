@@ -127,9 +127,11 @@
     }
 
     .list section h2 {
+        display: block;
         font-size: 12px;
     }
     .list section h3,h4,h5,h6,p {
+        display: block;
         font-size: 7px;
     }
 
