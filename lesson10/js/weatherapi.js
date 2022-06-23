@@ -31,7 +31,7 @@ function  displayResults(weatherData) {
     // CAPLITALIZE each word in the description
     const lower = desc.toLowerCase();
     const str = lower.split(' ');
-    for (var i = 0; i < str.length; i++) {
+    for (let i = 0; i < str.length; i++) {
         str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
 
     str.join(' ');
