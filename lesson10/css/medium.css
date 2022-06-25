@@ -101,43 +101,4 @@
     footer div:nth-child(1) img, footer div:nth-child(1) p {
         margin: auto
     }
-
-    main {
-        display: block;
-    }
-    
-    .wireframe img {
-        display: block;
-        margin: 0 auto;
-        max-width: 90%;
-    }
-
-    /*directory*/
-    #directory {
-        display: block;
-    }
-    div.cards section:hover {
-        box-shadow: 0px 0px 5px 5px #5C0029;
-    } 
-
-
-    .list section {
-        flex-direction: row;
-
-    }
-
-    .list section h2 {
-        display: block;
-        font-size: 12px;
-    }
-    .list section h3,h4,h5,h6,p {
-        display: block;
-        font-size: 7px;
-    }
-    .list section img {
-        margin-top: 0px;
-        max-width: 80px;
-    }
-
 }
-

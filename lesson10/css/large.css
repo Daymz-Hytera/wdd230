@@ -147,25 +147,4 @@ footer div {
     margin: auto;
 }
 
-main {
-    display: block;
-}
-
-.wireframe img {
-    display: block;
-    margin: 0 auto;
-    max-width: 90%;
-    
-}
-
-/*directory*/
-
-.list h2 {
-    font-size: 15px;
-}
-.list h3,h4,h5,h6,p {
-    font-size: 10px;
-}
-
-
 }
