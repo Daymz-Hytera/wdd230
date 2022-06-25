@@ -30,10 +30,10 @@ function  displayResults(weatherData) {
     tempIn.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
     windSpeedIn.innerHTML = `${weatherData.wind.speed}`;
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-    const desc = weatherData.weather[0].description;
+    condition.innerHTML = weatherData.weather[0].description;
 
     // CAPLITALIZE each word in the description
-    const lower = desc.toLowerCase();
+    const lower = condition.innerHTML.toLowerCase();
     const str = lower.split(' ');
     for (let i = 0; i < str.length; i++) {
         str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
