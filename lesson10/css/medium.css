@@ -85,9 +85,10 @@
     margin-right: 0px;
 }
     .weather img {
-        max-width: 50px;
+        max-width: 100px;
+        width: 80px;
         position: absolute;
-        top: 60px;
+        top: 50px;
         left: 50px;
         
     }
