@@ -6,7 +6,7 @@ const condition  = document.querySelector("#condition");
 const weatherIcon = document.querySelector("#weatherIcon");
 const windSpeedIn = document.querySelector("#windSpeed");
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=CapeTown,ZA&appid=da0e357a04e39a1b8b0372f681808fd9&units=imperial";
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Cape Town, ZA&appid=da0e357a04e39a1b8b0372f681808fd9&units=imperial";
 
 async function apiFetch() {
     try {
@@ -27,7 +27,7 @@ async function apiFetch() {
 apiFetch();
 
 function  displayResults(weatherData) {
-    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+    tempIn.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
     windSpeedIn.innerHTML = `${weatherData.wind.speed}`;
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
