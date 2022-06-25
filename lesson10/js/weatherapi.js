@@ -20,7 +20,7 @@ async function apiFetch() {
     }
   }
   
-  apiFetch();
+apiFetch();
 
 function  displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
