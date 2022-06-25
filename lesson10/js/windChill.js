@@ -15,7 +15,7 @@ async function apiFetch() {
           const data = await response.json();
           console.log(data); // this is for testing the call
           displayResults(data);
-          calWindChill(temperature, windSpeed);
+          calWindChill(tempIn, windSpeedIn);
       } else {
           throw Error(await response.text());
       }
@@ -59,15 +59,15 @@ var windSpeed = parseFloat(document.querySelector('#windSpeed').textContent)
 console.log(windSpeed)
 
 /*define a function to calculat the windSpeed*/
-function calWindChill(temperature, windSpeed){
+function calWindChill(tempIn, windSpeedIn){
 
-    var windChill = 35.74 + 0.6215*temperature - (35.75*windSpeed**0.16) + 0.4275 * temperature * windSpeed**0.16
+    var windChill = 35.74 + 0.6215*tempIn - (35.75*windSpeedIn**0.16) + 0.4275 * tempIn * windSpeedIn**0.16
     return windChill
 }
 
 /*call the function if conditions are met, else give 'NA'*/
 var windChillValue = ''
-if (temperature <= 50 && windSpeed >= 3) {windChillValue = (calWindChill(temperature, windSpeed)).toFixed(2)}
+if (tempIn <= 60 && windSpeedIn >= 3) {windChillValue = (calWindChill(tempIn, windSpeedIn)).toFixed(2)}
 else {windChillValue = "N/A"}
 console.log(windChillValue)
 
