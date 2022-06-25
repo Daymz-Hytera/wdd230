@@ -1,4 +1,55 @@
-/**/
+//Weather API
+
+// select HTML elements in the document
+const tempIn = document.querySelector("#temp");
+const condition  = document.querySelector("#condition");
+const weatherIcon = document.querySelector("#weatherIcon");
+const windSpeedIn = document.querySelector("#windSpeed");
+
+const url = "https://api.openweathermap.org/data/2.5/weather?q=CapeTown,ZA&appid=da0e357a04e39a1b8b0372f681808fd9&units=imperial";
+
+async function apiFetch() {
+    try {
+      const response = await fetch(url);
+      if (response.ok) {
+          const data = await response.json();
+          console.log(data); // this is for testing the call
+          displayResults(data);
+          calWindChill(temperature, windSpeed);
+      } else {
+          throw Error(await response.text());
+      }
+    } catch (error) {
+        console.log(error);
+    }
+  }
+  
+apiFetch();
+
+function  displayResults(weatherData) {
+    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+    windSpeedIn.innerHTML = `${weatherData.wind.speed}`;
+    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+    const desc = weatherData.weather[0].description;
+
+    // CAPLITALIZE each word in the description
+    const lower = desc.toLowerCase();
+    const str = lower.split(' ');
+    for (let i = 0; i < str.length; i++) {
+        str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+    }
+    let word = str.join(' ');
+    //
+
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', word);
+    captionDesc.textContent = word;
+  
+}
+
+
+
+/** To Calculate Windchill **/
 /*Get the temp from the page and make it into a number*/
 var temperature = parseFloat(document.querySelector('#temp').textContent)
 console.log(temperature)
