@@ -33,12 +33,12 @@ function  displayResults(weatherData) {
     const str = lower.split(' ');
     for (let i = 0; i < str.length; i++) {
         str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
-
+    }
     str.join(' ');
     //
 
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = str;
-  }
+  
 }
