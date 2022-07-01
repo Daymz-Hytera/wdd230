@@ -160,12 +160,15 @@ main {
 
 /*directory*/
 
-.list h2 {
-    font-size: 15px;
-}
-.list h3,h4,h5,h6,p {
-    font-size: 10px;
-}
 
+
+.list section h2 {
+    display: block;
+    font-size: 14px;
+}
+.list section h3,h4,h5,h6,p {
+    display: block;
+    font-size: 14px;
+}
 
 }

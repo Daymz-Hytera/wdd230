@@ -46,20 +46,20 @@ function displayBusinesses(company) {
     card.appendChild(p);
 
     // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('div.grid').appendChild(card);
 }
 
 /*button*/
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector(".cards");
+const display = document.querySelector(".grid");
 
 listbutton.addEventListener("click", () => {
-    display.classList.add("grid");
-    display.classList.remove("list");
+    display.classList.add("list");
+    display.classList.remove("grid");
 });
 
 gridbutton.addEventListener("click", () => {
-    display.classList.add("list");
-    display.classList.remove("grid");
+    display.classList.add("grid");
+    display.classList.remove("list");
 })
