@@ -1,5 +1,5 @@
 const requestURL = 'https://damianhunt.github.io/WDD230/lesson09/data.json';
-const cards = document.querySelector('.cards');
+const cards = document.querySelector('.grid');
 
 
 fetch('data.json')
