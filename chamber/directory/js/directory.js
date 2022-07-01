@@ -55,11 +55,11 @@ const listbutton = document.querySelector("#list");
 const display = document.querySelector(".cards");
 
 listbutton.addEventListener("click", () => {
-    display.classList.add("list");
-    display.classList.remove("cards");
+    display.classList.add("grid");
+    display.classList.remove("list");
 });
 
 gridbutton.addEventListener("click", () => {
-    display.classList.add("cards");
-    display.classList.remove("list");
+    display.classList.add("list");
+    display.classList.remove("grid");
 })
