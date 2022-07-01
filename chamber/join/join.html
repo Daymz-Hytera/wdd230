@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+
+<title>South African Chamber of Commerce</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+<script src="js/imagehandling.js" defer></script>
+<script src="js/chamber-home-page-build.js" defer></script>
+<script src="js/lastVisit.js" defer></script>
+
+     
+</head>
+<body>
+
+<header>
+    <div class="headerWrapper">
+        <img class="headerLogo" src="images/SACC_Logo_webp.webp" alt="Chamber Logo">
+        <h1>South African Chamber of Commerce</h1>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="https://damianhunt.github.io/wdd230/chamber/home/index.html">Home</a></li>
+                    <li><a href="https://damianhunt.github.io/wdd230/chamber/discovery/discovery.html">Discover</a></li>
+                    <li><a href="https://damianhunt.github.io/wdd230/chamber/directory/directory.html">Directory</a></li>
+                    <li><a href="https://damianhunt.github.io/wdd230/chamber/join/join.html">Join</a></li>
+                    <li><a href="https://damianhunt.github.io/wdd230/chamber/contact/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        <a class= "social-1" target="_blank" href="https://www.facebook.com/" >
+        <img class="social-1" src="images/Facebook_Logo_round.png" alt="Facebook icon">
+        </a>
+        <a class= "social-2" target="_blank" href="https://www.LinkedIn.com/" >
+        <img class="social-2" src="images/Linkedin_logo_round.png" alt="LinkedIn icon">
+        </a>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+    </div>
+        <nav class="dropDownNav">
+            <ul id="primaryNav">
+                <li><a href="https://damianhunt.github.io/wdd230/chamber/home/index.html">Home</a></li>
+                <li><a href="https://damianhunt.github.io/wdd230/chamber/discovery/discovery.html">Discover</a></li>
+                <li><a href="https://damianhunt.github.io/wdd230/chamber/directory/directory.html">Directory</a></li>
+                <li><a href="https://damianhunt.github.io/wdd230/chamber/join/join.html">Join</a></li>
+                <li><a href="https://damianhunt.github.io/wdd230/chamber/contact/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+    <div id="currentdate"></div>
+
+</header>
+
+
+<!-- CONTENT HERE -->
+<main class="joinPage">
+        <form method="get" action="thanks.html">
+            <fieldset class="basicInfo">
+                <legend class="formHead">Basic Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required autofocus> </label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Title <input type="text" name="title" pattern="*[A-Z][a-z][\s][\-]"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Business Name <input type="text" name="busName" required></label>
+            </fieldset>
+
+            <fieldset class="memLvl">
+                <legend class="formHead">Membership Level</legend>
+
+                <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership</label>
+
+                    <p class="sbs">As a non-profit business you get all the benefits of a silver membership free of charge<br><br>Cost: $0.<br><br></p>
+                <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Membership</label> 
+
+                <p class="sbs">Bronze Membership gives you access to special monthly training events and 2 round table seat held by the chamber.<br><br>Cost: $10/yr. <br><br></p>
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                
+                <p class="sbs">Silver membership gives you access to special monthly training events, 5 round table seat plus free advertizing on our homepage.<br><br>Cost: $20/yr. <br><br></p>
+                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                <p class="sbs">Gold membership gives you access to special monthly training events, 10 round table seat plus free advertizing on our homepage and events.<br><br>Cost: $30/yr. <br><br></p>
+                
+            
+            </fieldset>
+            <fieldset>
+                <legend class="formHead">Describe Your Business</legend>
+                <label class="textArea">Description
+                    <textarea id="describe" name="describe" rows="4" cols="50" maxlength="250" placeholder="Please provide a short description of your business here."></textarea>
+                </label>
+            
+            </fieldset>
+            <input type="hidden" id="visitTime" name="visitTime" value="">
+
+            <input type="submit" value="Join Chamber" class="submitBtn">
+
+        </form>
+
+          
+        
+    </main>
+    
+<!-- FOOTER HERE -->   
+<footer>
+    <div>
+        <img src="images/SACC_Logo_webp.webp" alt="Chamber Logo">
+        <p>
+            <strong>South African Chamber of Commerce</strong> <br>
+            Cournswood House, Clappins Lane, North Dean, Buckinghamshire, UK, HP14 4NW<br>
+        </p>
+        <p>
+            admin@sachamber.co.uk<br>
+            (043) 375-4046<br>
+            <span class="mapIcon"><img src="images/mapicon.png" alt="map icon"></span>
+            <a
+                href="https://maps.google.com">
+                Location Map</a>
+        </p>
+    </div>
+    <div>
+        &copy; <span id="year"></span> | South African Chamber of Commerce | Damian Hunt | WDD 230
+        Project | Last Update: <span id="lastmod"></span>
+    </div>
+</footer>
+
+</body>
+</html>
