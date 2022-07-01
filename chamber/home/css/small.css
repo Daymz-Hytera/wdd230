@@ -20,7 +20,7 @@ h1 {
     color: white;
     font-family: 'Lato', sans-serif, serif;
     
-    margin: auto auto auto 10px;
+    margin: 10px;
     
     font-size: 1.2rem;
 }
@@ -168,6 +168,10 @@ main h1, h2{
         border-radius: 10px;
         }
 
+    .hero a {
+        color: white;
+    }
+
 .weather {
     display: grid;
     grid-template-columns: auto;
@@ -297,4 +301,12 @@ footer div p a {
     justify-content: center;
     margin-top: 200px;
 
+}
+
+.hero a {
+    color: white;
+}
+
+.join a {
+    color: white;
 }
