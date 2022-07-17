@@ -1,7 +1,7 @@
 @media only screen and (min-width: 60rem) {
 
     header, footer {
-        max-width: 1200px;
+        max-width: auto;
         margin: 10px auto;
     }
 
