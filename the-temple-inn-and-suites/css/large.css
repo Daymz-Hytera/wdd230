@@ -1,4 +1,48 @@
 /* Desktop Views ****************************/
 @media only screen and (min-width: 60em) {
 	
+    header h1 {
+        font-size: 26px;
+        margin: 0px 30px;
+    }
+
+    nav ul {
+        display: flex;}
+        
+        .dropDownNav {
+            display: none;
+        }
+    
+    
+        #mainNav {
+            max-width: 600px;
+            display: flex;
+            
+        }
+    
+        #mainNav ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin: auto;
+        }
+    
+        #mainNav ul li a{
+            padding: .8rem 2vw;
+            flex: 0 0 auto;
+            text-decoration: none;
+            color: white;
+            
+        }
+    
+        #mainNav ul li a:hover {
+            color: #5C0029;
+        }
+    
+    
+        #hamburgerBtn {
+            display: none;
+        }
+
+
+
 }
