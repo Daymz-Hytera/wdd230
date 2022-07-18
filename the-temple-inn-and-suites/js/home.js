@@ -36,12 +36,12 @@ document.getElementById("lastmod").textContent = date
 
 // hamburger
 function toggleMenu() {
-    document.querySelector("#primaryNav").classList.toggle("open");
-    document.querySelector("#hamburgerBtn").classList.toggle("open");
+    document.querySelector(".primaryNav").classList.toggle("open");
+    document.querySelector(".hamburgerBtn").classList.toggle("open");
 
 }
 
-const x = document.querySelector('#hamburgerBtn')
+const x = document.querySelector('.hamburgerBtn')
 x.onclick = toggleMenu;
 
 /*code for getting day of week written out*/
@@ -49,5 +49,5 @@ let weekday = new Date().toLocaleString('en-us', {weekday:'long'});
 console.log(weekday);
 
 //code to toggle invite banner based on day of week being Tuesday or Wednesday
-const invite = document.querySelector('.classInvite')
-if (weekday == "Monday" || weekday == "Tuesday") {invite.style.display = 'block';}
+//const invite = document.querySelector('.classInvite')
+//if (weekday == "Monday" || weekday == "Tuesday") {invite.style.display = 'block';}

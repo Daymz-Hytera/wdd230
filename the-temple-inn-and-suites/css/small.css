@@ -73,7 +73,7 @@ button {
 
 }
 
-#mainNav {display: none;}
+.mainNav {display: none;}
 
 .dropDownNav ul {
     list-style-type: none;
@@ -107,11 +107,11 @@ button {
 .dropDownNav ul {display: none;}
 .dropDownNav ul.open {display: block;}
 
-#hamburgerBtn span:nth-child(1) {display: block;}
-#hamburgerBtn span:nth-child(2) {display: none;}
+.hamburgerBtn span:nth-child(1) {display: block;}
+.hamburgerBtn span:nth-child(2) {display: none;}
 
-#hamburgerBtn.open span:nth-child(1) {display: none;}
-#hamburgerBtn.open span:nth-child(2) {display: block;}
+.hamburgerBtn.open span:nth-child(1) {display: none;}
+.hamburgerBtn.open span:nth-child(2) {display: block;}
 
 
 
@@ -119,6 +119,7 @@ button {
     text-align: center;
     padding: 20px;
 }
+
 
 main div {
     color: white;
@@ -129,6 +130,15 @@ main h1, h2{
     color: #5C0029;
 }
 
+#slideshow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#slideshow img {
+    float: left;
+    margin: 0 -100% 0 0;
+}
 .spotlight {
     height: 600px;
     padding: 0px;

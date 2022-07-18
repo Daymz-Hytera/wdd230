@@ -14,19 +14,19 @@
         }
     
     
-        #mainNav {
+        .mainNav {
             max-width: 600px;
             display: flex;
             
         }
     
-        #mainNav ul {
+        .mainNav ul {
             list-style-type: none;
             padding-left: 0;
             margin: auto;
         }
     
-        #mainNav ul li a{
+        .mainNav ul li a{
             padding: .8rem 2vw;
             flex: 0 0 auto;
             text-decoration: none;
@@ -34,12 +34,12 @@
             
         }
     
-        #mainNav ul li a:hover {
+        .mainNav ul li a:hover {
             color: #5C0029;
         }
     
     
-        #hamburgerBtn {
+        .hamburgerBtn {
             display: none;
         }
 
