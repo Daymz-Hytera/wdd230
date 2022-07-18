@@ -36,12 +36,12 @@ document.getElementById("lastmod").textContent = date
 
 // hamburger
 function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("open");
-    document.getElementById("hamburgerBtn").classList.toggle("open");
+    document.querySelector("#primaryNav").classList.toggle("open");
+    document.querySelector("#hamburgerBtn").classList.toggle("open");
 
 }
 
-const x = document.getElementById('hamburgerBtn')
+const x = document.querySelector('#hamburgerBtn')
 x.onclick = toggleMenu;
 
 /*code for getting day of week written out*/
