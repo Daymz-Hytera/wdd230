@@ -1,0 +1,52 @@
+{
+    "temples": [
+      {
+        "name": "Washington D.C. Temple",
+        "address":"9900 Stoneybrook Drive Kensington, Maryland  20895-3199 United States", 
+        "phone": " (301)-588-0650",
+        "email": "None listed",
+        "services": "Clothing rental available, no cafeteria food served, no patron housing available, distribution center nearby",
+        "ordinance": "Currently Closed, reopen August 30, 2022.",
+        "session": "Currently closed, reopen August 30, 2022.",
+        "history": "Announcement: 15 November 1968, Groundbreaking and Site Dedication: 7 December 1968 by Hugh B. Brown, Public Open House:  17 September – 2 November 1974, Dedication:  19–22 November 1974 by Spencer W. Kimball, Public Open House:  28 April–11 June 2022, Rededication:  14 August 2022",
+        "closures": "Currently closed, reopen August 30, 2022.",
+        "imageurl": "https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/images/washington-d.c.-temple.jpg"
+      },
+      {
+        "name": "Durban South Africa Temple",
+        "address":"2 Izinga Drive Izinga Ridge Umhlanga, KwaZulu-Natal, 4021, South Africa", 
+        "phone": "(27) 31-140-0240",
+        "email": "None listed",
+        "services": "No clothing rental available, no cafeteria available, Patron housing available, distribution center nearby",
+        "ordinance": "By Appointment",
+        "session": "By Appoinment",
+        "history": "Announcement: 1 October 2011, Groundbreaking and Site Dedication: 9 April 2016 by Carl B. Cook, Public Open House: 22 January – 1 February 2020, Dedication: 16 February 2020 by Ronald A. Rasband",
+        "closures": "2022: Monday, 1 August 2022 - Monday, 15 August 2022, Saturday, 24 September 2022, Friday, 16 December 2022, Saturday, 24 December 2022, Saturday, 31 December 2022, 2023, Monday, 30 January 2023 - Monday, 13 February 2023, Monday, 31 July 2023 - Monday, 14 August 2023",
+        "imageurl": "https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/images/durban-south-africa-temple.jpg"
+      },
+      {
+        "name": "Johannesburg South Africa Temple",
+        "address":"7 Jubilee Road, Parktown, Johannesburg, 2193, South Africa", 
+        "phone": "(27) 11-645-1540",
+        "email": "None listed",
+        "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+        "ordinance": "By Appointment",
+        "session": "By Appointment",
+        "history": "Announcement:  1 April 1981, Groundbreaking and Site Dedication:  27 November 1982 by Marvin J. Ashton, Public Open House:  30 July–10 August 1985, Dedication:  24–25 August 1985 by Gordon B. Hinckley",
+        "closures": "2022: Tuesday, 9 August 2022, Monday, 15 August 2022 - Monday, 14 November 2022, Friday, 16 December 2022, Saturday, 24 December 2022, Saturday, 31 December 2022, 2023: Monday, 20 February 2023 - Monday, 6 March 2023, Monday, 21 August 2023 - Monday, 4 September 2023",
+        "imageurl": "https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/images/johannesburg-south-africa-temple.jpg"
+      },
+      {
+        "name": "Idaho Falls Idaho Temple",
+        "address":"1000 Memorial Dr, Idaho Falls, ID 83402-3410, United States", 
+        "phone": "(1) 208-522-7669",
+        "email": "none listed",
+        "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+        "ordinance": "By Appointment",
+        "session": "By Appointment",
+        "history": "Announcement:  3 March 1937, Groundbreaking:  19 December 1939 by David Smith, Site Dedication:  19 October 1940 by David O. McKay, Public Open House:  15–20 September 1945, Dedication:  23–25 September 1945 by George Albert Smith, Public Open House:  22 April–20 May 2017, Rededication:  4 June 2017 by Henry B. Eyring",
+        "closures": "2022: Saturday, 1 October 2022, Wednesday, 23 November 2022 (Limited Operations), Thursday, 24 November 2022, Saturday, 24 December 2022, Saturday, 31 December 2022, 2023: Tuesday, 24 January 2023 - Monday, 6 February 2023, Saturday, 1 April 2023, Tuesday, 27 June 2023 - Monday, 10 July 2023, Saturday, 7 October 2023, Wednesday, 22 November 2023 (Limited Operations), Thursday, 23 November 2023, Saturday, 23 December 2023, Saturday, 30 December 2023",
+        "imageurl": "https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/images/Idaho-Falls-Idaho-Temple.jpg"
+      }
+  ]
+}
