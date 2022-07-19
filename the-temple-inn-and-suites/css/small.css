@@ -139,6 +139,19 @@ main h1, h2{
     float: left;
     margin: 0 -100% 0 0;
 }
+
+main .herodiv {
+    width: 100%;
+    padding: 0;
+    margin: 0px auto;
+    position: relative;
+}
+main .herodiv figure {
+    width: 100%;
+    padding: 0;
+    margin: 0px auto;
+}
+
 .spotlight {
     height: 600px;
     padding: 0px;
