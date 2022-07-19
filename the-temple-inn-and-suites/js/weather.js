@@ -51,8 +51,6 @@ function  displayResults(weatherData) {
     
 }
 
-
-
 /** To Calculate Windchill **/
 /*Get the temp from the page and make it into a number*/
 var temperature = parseFloat(document.querySelector('#temp').textContent)

@@ -76,12 +76,14 @@ button {
 .dropDownNav ul li a {
 	display: block;
     text-decoration: none;
+    width: 90%;
     list-style: none;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
-    background-color: #5dfdca88;
+    background-color: #73CBF1;
     color: #fff;
     border: 1px solid black;
+    font-size: 18px;
 }
 
 
@@ -91,7 +93,8 @@ button {
 }
 
 .dropDownNav ul li a:hover {
-    background-color: #5C0029;
+    background-color: #d1d4d6;
+    color: black;
 }
 
 
