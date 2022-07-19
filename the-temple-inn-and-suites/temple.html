@@ -17,13 +17,16 @@
 
 <body>
     <header>
+        <div class="weatherAlert">
+            <span id="alertInfo"></span>
+            <button class="alertBtn"><span>X</span></button>
+        </div>
         <a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/index.html">
             <img class="headerLogo" src="images/temple-logo.png" alt="Temple Logo">
         </a>
-
             <h1>The Temple Inn & Suites</h1>
                 
-                <nav id="mainNav">
+                <nav class="mainNav">
                     <ul>
                         <li><a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/index.html">Home</a></li>
                         <li><a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/temple.html">Temple</a></li>
@@ -32,33 +35,83 @@
     
                     </ul>
                 </nav>
-            <a class= "social-1" target="_blank" href="https://www.facebook.com/" >
-            <img class="social-1" src="images/Facebook_Logo_round.png" alt="Facebook icon">
-            </a>
-            <a class= "social-2" target="_blank" href="https://www.LinkedIn.com/" >
-            <img class="social-2" src="images/Linkedin_logo_round.png" alt="LinkedIn icon">
-            </a>
-            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        </div>
+            <button class="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+
             <nav class="dropDownNav">
-                <ul id="primaryNav">
+                <ul class="primaryNav">
                     <li><a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/index.html">Home</a></li>
                     <li><a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/temple.html">Temple</a></li>
                     <li><a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/reservation.html">Reservation</a></li>
                     <li><a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/services.html">Services</a></li>
                 </ul>
             </nav>
-        
-        <div id="currentdate"></div>
-
     </header>
 
-    <main>
+    <main id="directory">
+        
+        <div class="grid"></div>
 
     </main>
     <footer>
+        <div id="preFooter">
+            <div id="prefootMid">
+                <img src="images/temple-logo.png" alt="Temple Logo">
+            </div>
+
+                <div id="bottomfooterinfo">
+                    <h3>Temple Inn & Suites</h3>
+                    <address>
+                        <div class="footerBzInfo">
+                            <div>
+                                <img src="images/icons/mapicon.png" alt="location icon"><a href="https://maps.google.com">4810 Montgomery Ln #500, Bethseda, MD 20814</a>
+                            </div>
+                        </div>
+                    </address>
+
+                    <div class="footerBzInfo">
+                        <img src="images/icons/call-icon.png" alt="phone icon"><a href="tel:999-999-9999">999.999.9999</a>
+                    </div>
+
+                    <div class="footerBzInfo">
+                        <img src="images/icons/email-icon.png" alt="email icon"><a href="mailto:templeinnsuites@tis.com">templeinnsuites@tis.com</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="midfootMid">
+                <div class="iconLinks">
+                    <a target="_blank" href="https://www.facebook.com/" >
+                        <img src="images/icons/Facebook_Logo_round.png" alt="Facebook icon">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/" >
+                        <img src="images/icons/instagram-round.png" alt="Instagram icon">
+                    </a>
+                    <a target="_blank" href="https://www.LinkedIn.com/" >
+                        <img src="images/icons/Linkedin_logo_round.png" alt="LinkedIn icon">
+                    </a>
+                        </div>
+            </div>
+        </div>
+
+        <div class="bottomFooter">
+            <div>
+                &copy; <span id="year"></span> | Temple Inn & Suites | Damian Hunt | WDD 230
+                Project | Last Update: <span id="lastmod"></span>
+            <div>
+                <a href="resource.html">Resources</a>
+            </div>
+        </div>
 
     </footer>
+    <script src="js/home.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/alert.js"></script>
+    <script src="js/forecast.js"></script>
+
+
+
+
 </body>
 
 </html>

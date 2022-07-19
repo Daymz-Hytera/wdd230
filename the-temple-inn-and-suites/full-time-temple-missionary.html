@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full-time Temple Missionary | The Temple Inn & Suites</title>
+    <title>Full-time Missionary Couple | The Temple Inn & Suites</title>
 
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
@@ -17,13 +17,16 @@
 
 <body>
     <header>
+        <div class="weatherAlert">
+            <span id="alertInfo"></span>
+            <button class="alertBtn"><span>X</span></button>
+        </div>
         <a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/index.html">
             <img class="headerLogo" src="images/temple-logo.png" alt="Temple Logo">
         </a>
-
             <h1>The Temple Inn & Suites</h1>
                 
-                <nav id="mainNav">
+                <nav class="mainNav">
                     <ul>
                         <li><a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/index.html">Home</a></li>
                         <li><a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/temple.html">Temple</a></li>
@@ -32,33 +35,111 @@
     
                     </ul>
                 </nav>
-            <a class= "social-1" target="_blank" href="https://www.facebook.com/" >
-            <img class="social-1" src="images/Facebook_Logo_round.png" alt="Facebook icon">
-            </a>
-            <a class= "social-2" target="_blank" href="https://www.LinkedIn.com/" >
-            <img class="social-2" src="images/Linkedin_logo_round.png" alt="LinkedIn icon">
-            </a>
-            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        </div>
+            <button class="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+
             <nav class="dropDownNav">
-                <ul id="primaryNav">
+                <ul class="primaryNav">
                     <li><a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/index.html">Home</a></li>
                     <li><a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/temple.html">Temple</a></li>
                     <li><a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/reservation.html">Reservation</a></li>
                     <li><a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/services.html">Services</a></li>
                 </ul>
             </nav>
-        
-        <div id="currentdate"></div>
-
     </header>
 
     <main>
+        <div class="spotlight">
+                <a class="bookNow" href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/reservation.html">Book Now</a>
+            <h1>Durban South Africa Temple</h1>    
+            <img src="images/durban-south-africa-temple-7936-main.jpg" alt="Indianapolis Indiana">
 
+            <div class="spotlightInfo">
+                <h2>Temple Locale</h3>
+                <p>The Durban South Africa Temple is located north of the Umhlanga city center in the Izinga development. The temple is situated atop a beautiful grassy knoll near the ocean and a highway with unobstructed views to the sugar cane fields for which the area is known.</p>
+                <h2>Temple Facts</h3>
+                <p>The Durban South Africa Temple was the fifth temple built in Africa and the second built in South Africa, following the Johannesburg South Africa Temple (1985).</p>
+            </div>
+
+            <div class="weather">
+                <h2>Weather</h2>
+                <div class="iconContainer">
+                  <img id="weatherIcon" src="" alt="weather icon">
+                </div>
+                <h3><span id="temp"></span> &#x00b0; F</h3>
+                <h3 id="condition">Partly Cloudy</h3>
+                <p>Humidity: <span id="humidity"></span>%
+                    <br>
+                  Wind Speed: <span id="windSpeed"></span> mph 
+                    <br>
+                  Wind Chill: <span id="windChill"></span> &#x00b0; F</p>
+            </div>
+          
+                <div id="forecast">
+                    <h3>3 Day Weather Forecast</h3>
+                </div>
+
+        </div>
     </main>
     <footer>
+        <div id="preFooter">
+            <div id="prefootMid">
+                <img src="images/temple-logo.png" alt="Temple Logo">
+            </div>
+
+                <div id="bottomfooterinfo">
+                    <h3>Temple Inn & Suites</h3>
+                    <address>
+                        <div class="footerBzInfo">
+                            <div>
+                                <img src="images/icons/mapicon.png" alt="location icon"><a href="https://maps.google.com">4810 Montgomery Ln #500, Bethseda, MD 20814</a>
+                            </div>
+                        </div>
+                    </address>
+
+                    <div class="footerBzInfo">
+                        <img src="images/icons/call-icon.png" alt="phone icon"><a href="tel:999-999-9999">999.999.9999</a>
+                    </div>
+
+                    <div class="footerBzInfo">
+                        <img src="images/icons/email-icon.png" alt="email icon"><a href="mailto:templeinnsuites@tis.com">templeinnsuites@tis.com</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="midfootMid">
+                <div class="iconLinks">
+                    <a target="_blank" href="https://www.facebook.com/" >
+                        <img src="images/icons/Facebook_Logo_round.png" alt="Facebook icon">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/" >
+                        <img src="images/icons/instagram-round.png" alt="Instagram icon">
+                    </a>
+                    <a target="_blank" href="https://www.LinkedIn.com/" >
+                        <img src="images/icons/Linkedin_logo_round.png" alt="LinkedIn icon">
+                    </a>
+                        </div>
+            </div>
+        </div>
+
+        <div class="bottomFooter">
+            <div>
+                &copy; <span id="year"></span> | Temple Inn & Suites | Damian Hunt | WDD 230
+                Project | Last Update: <span id="lastmod"></span>
+            <div>
+                <a href="resource.html">Resources</a>
+            </div>
+        </div>
 
     </footer>
+    <script src="js/home.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/alert.js"></script>
+    <script src="js/forecast.js"></script>
+
+
+
+
 </body>
 
 </html>
