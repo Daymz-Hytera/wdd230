@@ -1,4 +1,5 @@
 /* Alert */
+function displayResults(weatherData) {
 const alertOut = document.querySelector('.weatherAlert')
 let alertIn = weatherData.alerts
 
@@ -14,3 +15,4 @@ else {
     const alertBtn = document.querySelector('.alertBtn');
     alertBtn.addEventListener('click', () => {alertOut.classList.toggle('closed')}, false);}
 
+}
