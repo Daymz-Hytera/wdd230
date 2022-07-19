@@ -31,12 +31,6 @@
     
                     </ul>
                 </nav>
-            <a class= "social-1" target="_blank" href="https://www.facebook.com/" >
-            <img class="social-1" src="images/Facebook_Logo_round.png" alt="Facebook icon">
-            </a>
-            <a class= "social-2" target="_blank" href="https://www.LinkedIn.com/" >
-            <img class="social-2" src="images/Linkedin_logo_round.png" alt="LinkedIn icon">
-            </a>
             <button class="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
 
             <nav class="dropDownNav">
@@ -47,59 +41,97 @@
                     <li><a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/services.html">Services</a></li>
                 </ul>
             </nav>
-        
-        <div id="currentdate"></div>
-
     </header>
 
     <main>
+        <div class="spotlight">
+                <a class="bookNow" href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/reservation.html">Book Now</a>
+                
+            <img src="images/durban-south-africa-temple-7936-main.jpg" alt="Indianapolis Indiana">
 
-        <div class="herodiv">
-            <figure id="slideshow">
-                <img src="images/durban-south-africa-temple-7936-main.jpg" alt="Indianapolis Indiana" width="100%"
-                srcset="images/durban-south-africa-temple-7936-main.jpg, images/durban-south-africa-temple-7936-main-1200w.jpg">
-
-                <img src="images/johannesburg-south-africa-temple-22475-main.jpg" alt="Laie Hawaii" width="100%"
-                srcset="images/johannesburg-south-africa-temple-22475-main.jpg, images/johannesburg-south-africa-temple-22475-main.jpg-1200w.jpg">
-
-                <img src="images/washington-d.c.-temple-14992-main.jpg" alt="Louisville Kentucky" width="100%"
-                srcset="images/washington-d.c.-temple-14992-main.jpg, images/washington-d.c.-temple-14992-main.jpg-1200w.jpg">
-
-                <img src="images/008-Idaho-Falls-Idaho-Temple.jpg" alt="Nauvoo Illinois" width="100%"
-                srcset="images/008-Idaho-Falls-Idaho-Temple.jpg, images/008-Idaho-Falls-Idaho-Temple.jpg-1200w.jpg">
-
-            <div class="bookNow">
-                <form method="get" action="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/reservation.html"><button type="submit"><b>Book Now</b></button></form>
+            <div class="spotlightInfo">
+                <h2>Temple Locale</h3>
+                <p>The Durban South Africa Temple is located north of the Umhlanga city center in the Izinga development. The temple is situated atop a beautiful grassy knoll near the ocean and a highway with unobstructed views to the sugar cane fields for which the area is known.</p>
+                <h2>Temple Facts</h3>
+                <p>The Durban South Africa Temple was the fifth temple built in Africa and the second built in South Africa, following the Johannesburg South Africa Temple (1985).</p>
             </div>
-            </figure>
-            
+
+            <div class="weather">
+                <h2>Weather</h2>
+                <div class="iconContainer">
+                  <img id="weatherIcon" src="images/weatherhirez.jpg" alt="weather icon">
+                </div>
+                <h3><span id="temp"></span> &#x00b0; F</h3>
+                <h3 id="condition">Partly Cloudy</h3>
+                <p>Humidity: <span id="humidity"></span>%<br>
+                  Wind Speed: <span id="windSpeed"></span> mph <br>
+                  Wind Chill: <span id="windChill"></span> &#x00b0; F</p>
+              </div>
+          
+              <div class="forecast">
+                <h2>Forecast</h2>
+                <p><span id="day1">x: </span><span id="day1temp"></span>&#x00b0; F<br>
+                  <span id="day2">Next Day: </span><span id="day2temp"></span>&#x00b0; F<br>
+                  <span id="day3">Day after that: </span><span id="day3temp"></span>&#x00b0; F<br></p>
+              </div>
+    
         </div>
     </main>
     <footer>
-        <div>
-            <img src="images/temple-logo.png" alt="Temple Logo">
-            <p>
-                <strong>South African Chamber of Commerce</strong> <br>
-                Cournswood House, Clappins Lane, North Dean, Buckinghamshire, UK, HP14 4NW<br>
-            </p>
-            <p>
-                admin@sachamber.co.uk<br>
-                (043) 375-4046<br>
-                <span class="mapIcon"><img src="images/mapicon.png" alt="map icon"></span>
-                <a
-                    href="https://maps.google.com">
-                    Location Map</a>
-            </p>
+        <div id="preFooter">
+            <div id="prefootMid">
+                <img src="images/temple-logo.png" alt="Temple Logo">
+            </div>
+
+                <div id="bottomfooterinfo">
+                    <h3>Temple Inn & Suites</h3>
+                    <address>
+                        <div class="footerBzInfo">
+                            <div>
+                                <img src="images/icons/mapicon.png" alt="location icon"><a href="https://maps.google.com">4810 Montgomery Ln #500, Bethseda, MD 20814</a>
+                            </div>
+                        </div>
+                    </address>
+
+                    <div class="footerBzInfo">
+                        <img src="images/icons/call-icon.png" alt="phone icon"><a href="tel:999-999-9999">999.999.9999</a>
+                    </div>
+
+                    <div class="footerBzInfo">
+                        <img src="images/icons/email-icon.png" alt="email icon"><a href="mailto:templeinnsuites@tis.com">templeinnsuites@tis.com</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="midfootMid">
+                <div class="iconLinks">
+                    <a target="_blank" href="https://www.facebook.com/" >
+                        <img src="images/icons/Facebook_Logo_round.png" alt="Facebook icon">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/" >
+                        <img src="images/icons/instagram-round.png" alt="Instagram icon">
+                    </a>
+                    <a target="_blank" href="https://www.LinkedIn.com/" >
+                        <img src="images/icons/Linkedin_logo_round.png" alt="LinkedIn icon">
+                    </a>
+                        </div>
+            </div>
         </div>
-        <div>
-            &copy; <span id="year"></span> | South African Chamber of Commerce | Damian Hunt | WDD 230
-            Project | Last Update: <span id="lastmod"></span>
+
+        <div class="bottomFooter">
+            <div>
+                &copy; <span id="year"></span> | South African Chamber of Commerce | Damian Hunt | WDD 230
+                Project | Last Update: <span id="lastmod"></span>
+            <div>
+                <a href="resource.html">Resources</a>
+            </div>
         </div>
 
     </footer>
     <script src="js/home.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/slideshow.js"></script>
+    <script src="js/weather.js"></script>
+
 
 </body>
 

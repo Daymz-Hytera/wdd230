@@ -2,12 +2,21 @@
 
 // select HTML elements in the document
 const tempIn = document.querySelector("#temp");
+const humidity = document.querySelector("#humidity");
 const condition  = document.querySelector("#condition");
 const weatherIcon = document.querySelector("#weatherIcon");
 const windSpeedIn = document.querySelector("#windSpeed");
+const alertInfo = document.querySelector("#alertInfo");
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Cape Town, ZA&appid=da0e357a04e39a1b8b0372f681808fd9&units=imperial";
+const day1temp = document.querySelector("#day1temp")
+const day2temp = document.querySelector("#day2temp")
+const day3temp = document.querySelector("#day3temp")
 
+const day1 = document.querySelector("#day1")
+const day2 = document.querySelector("#day2")
+const day3 = document.querySelector("#day3")
+
+const url = "https://api.openweathermap.org/data/2.5/onecall?lat=39.415352&lon=-81.454842&exclude=hourly,minutely&appid=00ea60318b73a6283c6a3e0101a40d75&units=imperial"
 async function apiFetch() {
     try {
       const response = await fetch(url);
@@ -27,11 +36,54 @@ async function apiFetch() {
 apiFetch();
 
 function  displayResults(weatherData) {
+
+    const alertOut = document.querySelector('.weatherAlert')
+    let alertIn = weatherData.alerts
+
+    console.log(typeof alertIn)
+    console.log(alertIn)
+    
+    
+   
+    if (typeof (alertIn) === "undefined"){
+        alertOut.style.display = 'none'}
+    else {
+        alertInfo.innerHTML = `${alertIn[0].event}`;
+        const alertBtn = document.querySelector('.alertBtn');
+        alertBtn.addEventListener('click', () => {alertOut.classList.toggle('closed')}, false);}
+  
+
+    
+    tempIn.innerHTML = `<strong>${weatherData.current.temp.toFixed(0)}</strong>`;
+    day1temp.innerHTML = `${weatherData.daily[1].temp.day.toFixed(0)}`
+    day2temp.innerHTML = `${weatherData.daily[2].temp.day.toFixed(0)}`
+    day3temp.innerHTML = `${weatherData.daily[3].temp.day.toFixed(0)}`
+    
+    day1.innerHTML = `${conversion(1)}: ` 
+    day2.innerHTML = `${conversion(2)}: ` 
+    day3.innerHTML = `${conversion(3)}: `    
+
+
+    function conversion (number){
+    //console.log(weatherData.daily[number].dt)
+    let tomorrow = weatherData.daily[number].dt * 1000
+    //console.log(tomorrow)
+
+    let dateOjb = new Date(tomorrow)
+    //console.log(dateOjb)
+
+    let weekday = dateOjb.toLocaleString("en-US", {weekday: "long"})
+    //console.log(weekday)
+    return weekday
+}
+
     tempIn.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-    windSpeedIn.innerHTML = `${weatherData.wind.speed}`;
+    humidity.innerHTML = `${weatherData.current.humidity.toFixed(0)}`;
+    windSpeedIn.innerHTML = `${weatherData.current.wind_speed}`;
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     condition.innerHTML = weatherData.weather[0].description;
 
+    
     // CAPLITALIZE each word in the description
     const lower = condition.innerHTML.toLowerCase();
     const str = lower.split(' ');
