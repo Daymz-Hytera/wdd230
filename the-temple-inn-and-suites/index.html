@@ -17,6 +17,10 @@
 
 <body>
     <header>
+        <div class="weatherAlert">
+            <span id="alertInfo"></span>
+            <button class="alertBtn"><span>X</span></button>
+        </div>
         <a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/index.html">
             <img class="headerLogo" src="images/temple-logo.png" alt="Temple Logo">
         </a>
@@ -59,22 +63,20 @@
             <div class="weather">
                 <h2>Weather</h2>
                 <div class="iconContainer">
-                  <img id="weatherIcon" src="images/weatherhirez.jpg" alt="weather icon">
+                  <img id="weatherIcon" src="" alt="weather icon">
                 </div>
                 <h3><span id="temp"></span> &#x00b0; F</h3>
                 <h3 id="condition">Partly Cloudy</h3>
-                <p>Humidity: <span id="humidity"></span>%<br>
-                  Wind Speed: <span id="windSpeed"></span> mph <br>
+                <p>Humidity: <span id="humidity"></span>%
+                    <br>
+                  Wind Speed: <span id="windSpeed"></span> mph 
+                    <br>
                   Wind Chill: <span id="windChill"></span> &#x00b0; F</p>
-              </div>
+            </div>
           
-              <div class="forecast">
-                <h2>Forecast</h2>
-                <p><span id="day1">x: </span><span id="day1temp"></span>&#x00b0; F<br>
-                  <span id="day2">Next Day: </span><span id="day2temp"></span>&#x00b0; F<br>
-                  <span id="day3">Day after that: </span><span id="day3temp"></span>&#x00b0; F<br></p>
-              </div>
-    
+                <div id="forecast">
+                </div>
+
         </div>
     </main>
     <footer>
