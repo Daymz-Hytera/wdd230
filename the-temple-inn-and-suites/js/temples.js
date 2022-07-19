@@ -1,5 +1,5 @@
 const requestURL= "https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/index.html/json/temples.json";
-const cards = document.querySelector('.grid');
+const cards = document.querySelector('.cards');
 
 
 fetch(requestURL)
@@ -9,10 +9,10 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const temple = jsonObject['temples'];
-    temple.forEach(displayTemple);
+    temple.forEach(displayTemples);
   });
 
-  function displayTemple(temple) {
+  function displayTemples(temple) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
