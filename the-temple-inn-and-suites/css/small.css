@@ -286,7 +286,7 @@ footer h1,h2,h3 {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     align-items: center;
     background-color: #d1d4d6;
-    width: 100%;
+    width: 90%;
     margin: 0px auto;
     padding: 10px;
 }
@@ -435,24 +435,28 @@ footer h1,h2,h3 {
 
     /** Reception Page **/
 
-    .catering, .accomadation p, h3 {color: black; text-align: center;}
+    #catering, .accomadation p, h4 {
+        color: black;
+        text-align: center;
+        margin: 0px;}
 
-    .catering img {width: 70%;}
-    .accomadation img {width: 70%;}
-    .catering {
+    #catering img {width: 70%;}
+    #accomadation img {width: 70%;margin-top: 10px;}
+    #catering {
         display: block;
         background-color: #d1d4d6;
         width: 80%;
         margin: 5px auto;
         padding: 10px;
     }
-    .accomadation {
+    #accomadation {
         display: block;
         background-color: #d1d4d6;
         width: 80%;
         margin: 5px auto;
         padding: 10px;
     }
+
 
     /** Missionary Page **/
 
