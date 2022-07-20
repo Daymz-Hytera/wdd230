@@ -198,6 +198,7 @@ main h1, h2, h3{
 footer div img {
 	width: 140px;
 }
+#prefootMid img {display: none;}
 footer {
     background-color: #0A5198;
     color: white;
