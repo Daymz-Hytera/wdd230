@@ -6,8 +6,6 @@ let alertIn = weatherData.alerts
 console.log(typeof alertIn)
 console.log(alertIn)
 
-
-
 if (typeof (alertIn) === "undefined"){
     alertOut.style.display = 'none'}
 else {
