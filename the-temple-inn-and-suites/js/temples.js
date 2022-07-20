@@ -1,4 +1,4 @@
-const requestURL= "https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/index.html/json/temples.json";
+const requestURL= "https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/json/temples.json";
 const cards = document.querySelector('.cards');
 
 
