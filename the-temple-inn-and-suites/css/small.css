@@ -303,7 +303,7 @@ footer h1,h2,h3 {
         width: 90%;
         padding: 5px;
         background-color: #d1d4d6;
-        border: 1px solid #0A5198;
+        border: 2px solid #0A5198;
         border-radius: 1px;
         align-items: center;
 
@@ -323,7 +323,7 @@ footer h1,h2,h3 {
     }
       form fieldset {
         margin: 5px;
-        border: 1px solid #0A5198;
+        border: 2px solid #0A5198;
         border-radius: 10px;
         padding: .5rem 2%;
         text-align: left;
@@ -353,11 +353,11 @@ footer h1,h2,h3 {
     }
 
     form input:required {
-        border-top: rgb(125, 40, 40) solid 1px;
+        border-right: rgb(125, 40, 40) solid 3px;
     }
     
     form input:required:valid {
-        border-top: rgb(43, 136, 43) solid 1px;
+        border-right: rgb(43, 136, 43) solid 3px;
     }
 
     .request textarea {
