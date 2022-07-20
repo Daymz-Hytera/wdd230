@@ -3,6 +3,10 @@
 
     #prefootMid img {
         display: block;
+        margin: 0px;
+    }
+    #prefootMid {
+        padding: 0px;
     }
 	
     header h1 {

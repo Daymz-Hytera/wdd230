@@ -258,15 +258,6 @@ footer h1,h2,h3 {
     padding: 5px;
 }
 
-.weather-api {
-    display: block;
-    background-color: #079c6da7;
-    text-align: center;
-    justify-content: center;
-    margin-top: 200px;
-
-}
-
 /** Temple Page **/
 .cards section {
     flex-direction: column;
@@ -296,9 +287,6 @@ footer h1,h2,h3 {
     margin: 0px auto;
     padding: 10px;
 }
-
-
-
 
 /** Reservation Page **/
 
