@@ -335,3 +335,14 @@ footer h1,h2,h3 {
         background-color: #73CBF1;
         color: #0B0B0B;
     }
+
+    .thanks {
+        background-color: #d1d4d6;
+        padding: 20px;
+    }
+
+    .thanks h1,h2 {
+        color: #0A5198;
+        margin: 20px;
+
+    }
