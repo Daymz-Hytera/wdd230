@@ -181,7 +181,12 @@ main h1, h2, h3{
     align-items: center;
     border: 2px solid #0A5198;
     margin: 5px auto;
+}
 
+.weather h3, p {
+    margin: 10px;
+    padding: 0px;
+    
 }
 
 
