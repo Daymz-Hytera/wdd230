@@ -389,3 +389,44 @@ footer h1,h2,h3 {
         margin: 5px auto;
         padding: 10px;
     }
+
+    /** Reception Page **/
+
+    .catering, .accomadation p, h3 {color: black; text-align: center;}
+
+    .catering img {width: 70%;}
+    .accomadation img {width: 70%;}
+    .catering {
+        display: block;
+        background-color: #d1d4d6;
+        width: 80%;
+        margin: 5px auto;
+        padding: 10px;
+    }
+    .accomadation {
+        display: block;
+        background-color: #d1d4d6;
+        width: 80%;
+        margin: 5px auto;
+        padding: 10px;
+    }
+
+    /** Missionary Page **/
+
+    .suites p, h3 {color: black; text-align: center;}
+    .suites img {width: 70%;}
+    .suites {
+        display: block;
+        background-color: #d1d4d6;
+        width: 80%;
+        margin: 5px auto;
+        padding: 10px;
+    }
+
+    .contactForm {
+        display: block;
+        background-color: #d1d4d6;
+        width: 80%;
+        margin: 5px auto;
+        padding: 10px;
+    }
