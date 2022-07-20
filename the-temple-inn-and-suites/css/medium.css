@@ -13,4 +13,15 @@
         align-items: center;
         text-align: center;
     }
+
+/** Form **/
+    input, 
+    textarea {
+      max-width: 50%;
+    }
+
+    .request textarea {
+        max-width: 50%;    
+    }
+
 }

@@ -21,9 +21,7 @@
             <span id="alertInfo"></span>
             <button class="alertBtn"><span>X</span></button>
         </div>
-        <a href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/index.html">
             <img class="headerLogo" src="images/temple-logo.png" alt="Temple Logo">
-        </a>
             <h1>The Temple Inn & Suites</h1>
                 
                 <nav class="mainNav">
@@ -47,39 +45,55 @@
             </nav>
     </header>
 
-    <main>
-        <div class="spotlight">
-                <a class="bookNow" href="https://damianhunt.github.io/wdd230/the-temple-inn-and-suites/reservation.html">Book Now</a>
-            <h1>Durban South Africa Temple</h1>    
-            <img src="images/durban-south-africa-temple-7936-main.jpg" alt="Indianapolis Indiana">
+    <main class="reservations">
+        <form method="get" action="thanks.html">
+            <legend class="formHead">Reservations</legend>
+            <fieldset>
+                <legend>Guest Info</legend>
+              <label for="name">Full Name:</label>
+              <input type="text" id="name" name="user_name" required />
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_email" required />
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="user_phone" placeholder="123-456-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+              <label for="home_country">Home Country</label>
+              <input type="text" id="home_country" name="user_home_country" required />
+            </fieldset>
 
-            <div class="spotlightInfo">
-                <h2>Temple Locale</h3>
-                <p>The Durban South Africa Temple is located north of the Umhlanga city center in the Izinga development. The temple is situated atop a beautiful grassy knoll near the ocean and a highway with unobstructed views to the sugar cane fields for which the area is known.</p>
-                <h2>Temple Facts</h3>
-                <p>The Durban South Africa Temple was the fifth temple built in Africa and the second built in South Africa, following the Johannesburg South Africa Temple (1985).</p>
-            </div>
+            <fieldset>
+                <legend>Booking Info</legend>
+              <label for="temple_location">Temple location:</label>
+              <input type="text" id="temple_location" name="user_temple_location" required />
+              <label for="number_beds">Number of rooms:</label>
+              <input type="number" id="number_beds" name="user_number_beds" required />
+              <label for="room_type">Type of room:</label>
+              <select name="user_room_type" id="room_type" required>
+                <option value="" disabled selected>Room Type</option>
+                <option value="single-bed">Single Bed</option>
+                <option value="two_single-bed">Two Single Beds</option>
+                <option value="single_one_king">Single Bed & King Bed</option>
+                <option value="two_queens">Two Queen Beds</option>
+                <option value="one_king">King Bed</option>
+              </select>
 
-            <div class="weather">
-                <h2>Weather</h2>
-                <div class="iconContainer">
-                  <img id="weatherIcon" src="" alt="weather icon">
-                </div>
-                <h3><span id="temp"></span> &#x00b0; F</h3>
-                <h3 id="condition">Partly Cloudy</h3>
-                <p>Humidity: <span id="humidity"></span>%
-                    <br>
-                  Wind Speed: <span id="windSpeed"></span> mph 
-                    <br>
-                  Wind Chill: <span id="windChill"></span> &#x00b0; F</p>
-            </div>
-          
-                <div id="forecast">
-                    <h3>3 Day Weather Forecast</h3>
-                </div>
+              <label for="arrival">Arrival date:</label>
+              <input type="date" id="arrival" name="arrival" required/>
 
-        </div>
-    </main>
+              <label for="departure">Departure date:</label>
+              <input type="date" id="departure" name="departure" required/>
+            </fieldset>
+
+            <fieldset class="request">
+                <legend>Special Request</legend>
+              <label for="msg">Special requests:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </fieldset>
+
+              <input type="submit" value="Make Reservation" class="resButton">
+
+            </form>
+      </main>
+
     <footer>
         <div id="preFooter">
             <div id="prefootMid">
@@ -87,7 +101,7 @@
             </div>
 
                 <div id="bottomfooterinfo">
-                    <h3>Temple Inn & Suites</h3>
+                    <h1>Temple Inn & Suites</h1>
                     <address>
                         <div class="footerBzInfo">
                             <div>
@@ -126,7 +140,7 @@
             <div>
                 &copy; <span id="year"></span> | Temple Inn & Suites | Damian Hunt | WDD 230
                 Project | Last Update: <span id="lastmod"></span>
-            <div>
+            <div class="resource">
                 <a href="resource.html">Resources</a>
             </div>
         </div>

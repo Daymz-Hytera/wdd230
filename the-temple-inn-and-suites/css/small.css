@@ -187,6 +187,14 @@ footer {
     
 }
 
+footer h1,h2,h3 {
+    color: white;
+}
+
+.resource a{
+    color: white;
+}
+
 .mapIcon img{
     width: 30px;
 }
@@ -238,3 +246,92 @@ footer {
     margin-top: 200px;
 
 }
+
+
+/** Reservation Page **/
+
+    .reservations {
+        display: block;
+    }
+    form {
+        margin: 2px auto;
+        width: 90%;
+        padding: 5px;
+        background-color: #d1d4d6;
+        border: 1px solid #0A5198;
+        border-radius: 1px;
+        align-items: center;
+
+      }
+    .formHead {
+        display: block;
+        text-align: left;
+        font-size: 25px;
+        margin: 20px 15px;
+    }
+
+    form legend {
+        color: #0A5198;
+        font-size: 20px;
+        margin: 0 5px;
+        padding: 0 5px;
+    }
+      form fieldset {
+        margin: 5px;
+        border: 1px solid #0A5198;
+        border-radius: 10px;
+        padding: .5rem 2%;
+        text-align: left;
+    }
+
+    form label {
+        display: block;
+        text-align: left;
+    }
+
+    input, 
+    textarea {
+      font: 12px 'Lato', sans-serif, serif;
+      width: 90%;
+      box-sizing: border-box;
+      border: 1px solid #999;
+    }
+    
+    input:focus, 
+    textarea:focus {
+      border-color: #000;
+    }
+    
+    textarea {
+      vertical-align: top;
+      height: 15px;
+    }
+
+    form input:required {
+        border-top: rgb(125, 40, 40) solid 1px;
+    }
+    
+    form input:required:valid {
+        border-top: rgb(43, 136, 43) solid 1px;
+    }
+
+    .request textarea {
+        width: 90%;
+        height: 100px;
+    }
+
+    .resButton {
+        display: block;
+        font-size: 20px;
+        color: white;
+        background-color: #0A5198;
+        width: auto;
+        margin-bottom: 10px;
+        border-radius: 5px 10px;
+    
+    }
+
+    .resButton:hover {
+        background-color: #73CBF1;
+        color: #0B0B0B;
+    }
