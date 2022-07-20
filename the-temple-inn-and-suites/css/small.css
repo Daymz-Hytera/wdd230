@@ -69,6 +69,7 @@ button {
 }
 
 .alertBtn {
+    display: none;
     color: black;
   
 }
