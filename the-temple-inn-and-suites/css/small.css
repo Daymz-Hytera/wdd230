@@ -255,19 +255,20 @@ footer h1,h2,h3 {
     margin: 5px auto;
     box-shadow: 0px 0px 1px 3px #0A5198;
     align-items: center;
-    height: 750px;
+    height: 900px;
 }
-.cards section p1, p2, p3, p4, p5, p6, p7 {
-    padding: 10px;
-    text-align: center;
-    margin: 2px;
+.cards section h2, h3, p1, p2, p3, p4, p5, p6, p7 {
+    display:inline;
+    float:left;
+    margin: 10px;
     color: black;
+    padding-left: 10px;
 }
 .cards p, h3 {color: black; text-align: center; padding: 10px;}
 .cards img {width: 70%;}
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     align-items: center;
     background-color: #d1d4d6;
     width: 100%;
