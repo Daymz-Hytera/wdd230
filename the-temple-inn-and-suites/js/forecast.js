@@ -45,3 +45,4 @@ fetchForecast = function () {
 	});
 };
 fetchForecast()
+

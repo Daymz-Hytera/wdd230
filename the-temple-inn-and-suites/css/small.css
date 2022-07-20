@@ -63,6 +63,16 @@ button {
 
 }
 
+.weatherAlert {
+    color: black;
+    background-color: #d1d4d6;
+}
+
+.alertBtn {
+    color: black;
+  
+}
+
 .mainNav {display: none;}
 
 .dropDownNav ul {
@@ -116,8 +126,8 @@ button {
 /** Main **/
 
 main div {
-    color: white;
     margin: 0px auto;
+    text-align: center;
 
 }
 main h1, h2, h3{
@@ -166,13 +176,23 @@ main h1, h2, h3{
 }
 
 .weather {
-    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #0A5198;
+    margin: 5px auto;
+
 }
 
-.forcast p {
-    color: black;
-}
 
+#forecast {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+    border: 2px solid #0A5198;
+    margin: 5px auto;
+}
 /** Footer **/
 
 footer div img {

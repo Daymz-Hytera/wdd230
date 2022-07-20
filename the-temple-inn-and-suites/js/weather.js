@@ -8,7 +8,7 @@ const weatherIcon = document.querySelector("#weatherIcon");
 const windSpeedIn = document.querySelector("#windSpeed");
 const alertInfo = document.querySelector("#alertInfo");
 
-const url = "https://api.openweathermap.org/data/2.5/onecall?lat=-29.8579&lon=31.0292&exclude=hourly,minutely&appid=00ea60318b73a6283c6a3e0101a40d75&units=imperial"
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Durban&exclude=hourly,minutely&appid=8017c1d5aea32b6094764ab6d12a29de&units=imperial"
 async function apiFetch() {
     try {
       const response = await fetch(url);
@@ -29,7 +29,7 @@ apiFetch();
 
 function  displayResults(weatherData) {    
     tempIn.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-    humidity.innerHTML = `${weatherData.current.humidity.toFixed(0)}`;
+    humidity.innerHTML = `${weatherData.main.humidity.toFixed(0)}`;
     windSpeedIn.innerHTML =`${weatherData.wind.speed.toFixed(0)}`;
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     condition.innerHTML = weatherData.weather[0].description;
