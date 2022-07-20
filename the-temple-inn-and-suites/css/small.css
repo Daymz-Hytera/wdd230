@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans&display=swap');
 
-
-/* phone or baseline views **************************/
+/********** phone or baseline views *************/
 
 /*
 Primary color: #0A5198
@@ -347,7 +346,7 @@ footer h1,h2,h3 {
 
     }
 
-    /** Services **/
+    /** Services Page **/
 
     .services, .amenities, .reception, .missionaries p {color: black; text-align: center;}
 
@@ -430,6 +429,8 @@ footer h1,h2,h3 {
         margin: 5px auto;
         padding: 10px;
     }
+
+    /** Resources Page **/
 
     .resourcePg {
         display: block;
