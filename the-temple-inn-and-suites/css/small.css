@@ -430,3 +430,10 @@ footer h1,h2,h3 {
         margin: 5px auto;
         padding: 10px;
     }
+
+    .resource {
+        display: block;
+        background-color: #d1d4d6;
+        margin: 0px auto;
+        padding: 10px;
+    }
